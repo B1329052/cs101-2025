@@ -13,7 +13,7 @@ int main(){
        int count = additional / 100;
        int remainder = (additional % 100)?1:0;
        int sum = (count + remainder) * 10 + 70;
-       printf("%d元\n",sum);
+       printf("%d元\n", sum);
     }
     return 0;
 }
