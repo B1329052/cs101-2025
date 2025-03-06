@@ -17,8 +17,8 @@ int main(){
     fseek(fp, 0, SEEK_SET);
     fread(aread, sizeof(aread), 1,fp);
     
-    for(int i=0; i<5; i++) {
-        printf("%d", aread[i]);
+    for(int i=0; i<3; i++) {
+        printf("%d ", aread[i]);
     }
     printf("\n");
     fclose(fp);
@@ -28,8 +28,8 @@ int main(){
     fseek(fp, 0, SEEK_SET);
     fread(bread, sizeof(bread), 1,fp);
     
-    for(int i=0; i<5; i++) {
-        printf("%c", bread[i]);
+    for(int i=0; i<3; i++) {
+        printf("%c ", bread[i]);
     }
     printf("\n");
     fclose(fp);
@@ -39,8 +39,8 @@ int main(){
     fseek(fp, 0, SEEK_SET);
     fread(cread, sizeof(cread), 1,fp);
     
-    for(int i=0; i<5; i++) {
-        printf("%f", cread[i]);
+    for(int i=0; i<3; i++) {
+        printf("%f ", cread[i]);
     }
     printf("\n");
     fclose(fp);
