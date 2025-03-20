@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fun(int* i, int* j){
+int func(int* i, int* j){
     printf("in func, i = %d, j = %d\n", *i, *j);
     int t;
     t = *j;
